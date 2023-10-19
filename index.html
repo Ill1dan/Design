@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,500;1,700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a0d75a546.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="display">
+    <div class="purple">
+        <div></div>
+    </div>
+    <div class="pink">
+        <div></div>
+    </div>
+</div>
+<div class="container">
+    <div id="one">
+        <i class="fa-solid fa-user-plus"></i>
+    </div>
+    <div id="two">
+        <i class="fa-solid fa-user-group"></i>
+    </div>
+    <div id="three">
+        <i class="fa-solid fa-clipboard"></i>
+    </div>
+</div>
+<div class="bottom-container" id="g">
+    <h3>Invite people</h3>
+    <p>All invited people will be granted access to all sites within our organisation</p>
+    <div class="slide">
+        <h4 id="one-h4">Invite with email</h4>
+        <h4 id="two-h4">Invite with link</h4>
+        <span id="slider-span"></span>
+    </div>
+    <div class="input">
+        <div class="flex">
+            <div class="each">
+                <h4>Share Link</h4>
+                <div>
+                    <input type="text" value="https://www.facebook.com" id="copy" onclick="copyPassword()">
+                    <div><i class="fa-regular fa-copy"></i><p>Copy</p></div>
+                </div>
+            </div>
+            <div class="each">
+                <h4>Add to team</h4>
+                <div>
+                    <input type="email" placeholder="Email address">
+                    <div><i class="fa-regular fa-envelope"></i><p>Email</p></div>
+                </div>
+            </div>
+        </div>
+    <div class="space"></div>
+    </div>
+    <p>People with organisation email will be able to join with a link. <span>Deactivate</span> it if you don't need this.</p>
+</div>
+<div class="new-container" id="gg">
+    <h3>Invite to team</h3>
+    <div class="box-flex">
+        <div class="flex-left">
+            <h4>Team member</h4>
+            <input type="email" placeholder="Email address">
+            <input type="email" placeholder="Email address">
+        </div>
+        <div class="flex-right">
+            <h4>Permission</h4>
+            <select>
+                <option>Read Only</option>
+                <option>Read & Edit</option>
+                <option>Admin</option>
+            </select>
+            <select>
+                <option>Read Only</option>
+                <option>Read & Edit</option>
+                <option>Admin</option>
+            </select>
+        </div>
+    </div>
+    <p>+Add More</p>
+    <h5><span>Send invites</span></h5>
+</div>
+<div class="last-container" id="ggg">
+    <h3>Invite to Board</h3>
+    <input type="email" placeholder="Email address">
+    <div>
+        <p>Invite with link</p>
+        <p>Anyone with the link can view your board. <span>Create link</span></p>
+    </div>
+    <h4><span>Send Invitation</span></h4>
+</div>
+</body>
+</html>
